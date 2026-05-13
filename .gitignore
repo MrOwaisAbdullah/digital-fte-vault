@@ -1,0 +1,26 @@
+# Secrets — NEVER sync
+.env
+*.env
+token.json
+credentials.json
+*_session.json
+*_token.json
+*.pem
+*.key
+*.p12
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Logs (large, not needed for sync)
+*.log
+
+# Keep empty directory markers
+!.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
